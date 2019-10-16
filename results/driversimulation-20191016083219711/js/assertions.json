@@ -1,0 +1,10 @@
+{
+  "simulation": "arangodb.DriverSimulation",
+  "simulationId": "driversimulation",
+  "start": 1571214739711,
+  "description": "",
+  "scenarios": ["getVersion"],
+  "assertions": [
+
+  ]
+}

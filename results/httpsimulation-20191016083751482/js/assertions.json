@@ -1,0 +1,10 @@
+{
+  "simulation": "arangodb.HttpSimulation",
+  "simulationId": "httpsimulation",
+  "start": 1571215071482,
+  "description": "",
+  "scenarios": ["getVersion"],
+  "assertions": [
+
+  ]
+}
