@@ -1,0 +1,10 @@
+{
+  "simulation": "arangodb.simulations.DriverHttpJsonSimulation",
+  "simulationId": "driverhttpjsonsimulation",
+  "start": 1572344021709,
+  "description": "",
+  "scenarios": ["getDocument"],
+  "assertions": [
+
+  ]
+}

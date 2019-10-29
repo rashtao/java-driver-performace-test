@@ -1,0 +1,10 @@
+{
+  "simulation": "arangodb.simulations.DriverHttpVPackSimulation",
+  "simulationId": "driverhttpvpacksimulation",
+  "start": 1572344244320,
+  "description": "",
+  "scenarios": ["getDocument"],
+  "assertions": [
+
+  ]
+}

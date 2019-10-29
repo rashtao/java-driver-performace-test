@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.arangodb</groupId>
             <artifactId>arangodb-java-driver</artifactId>
-            <version>6.4.0</version>
+            <version>6.4.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -70,6 +70,14 @@
                 <groupId>io.gatling</groupId>
                 <artifactId>gatling-maven-plugin</artifactId>
                 <version>${gatling-plugin.version}</version>
+                <configuration>
+                    <runMultipleSimulations>true</runMultipleSimulations>
+                    <includes>
+                        <param>arangodb.simulations.DriverVstSimulation</param>
+                        <param>arangodb.simulations.DriverHttpJsonSimulation</param>
+                        <param>arangodb.simulations.DriverHttpVPackSimulation</param>
+                    </includes>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -1,0 +1,10 @@
+{
+  "simulation": "arangodb.simulations.DriverVstSimulation",
+  "simulationId": "drivervstsimulation",
+  "start": 1572344273361,
+  "description": "",
+  "scenarios": ["getDocument"],
+  "assertions": [
+
+  ]
+}

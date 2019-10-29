@@ -7,8 +7,6 @@ object Engine extends App {
     .resourcesDirectory(IDEPathHelper.resourcesDirectory.toString)
     .resultsDirectory(IDEPathHelper.resultsDirectory.toString)
     .binariesDirectory(IDEPathHelper.mavenBinariesDirectory.toString)
-    //		.simulationClass("arangodb.HttpSimulation")
-    .simulationClass("arangodb.DriverSimulation")
 
   Gatling.fromMap(props.build)
 }
